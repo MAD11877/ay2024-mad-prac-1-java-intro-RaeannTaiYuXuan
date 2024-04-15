@@ -13,7 +13,7 @@ public class Question3
      Scanner in = new Scanner(System.in);
 
         // Prompt the user to enter an integer
-        System.out.print("Enter Integer: ");
+        System.out.print();
         
         // Read the integer input
         int num = in.nextInt();
@@ -25,7 +25,7 @@ public class Question3
         int result = num * num;
 
         // Print out the result
-        System.out.println("Result: " + result);
+        System.out.println("" + result);
 
 
 

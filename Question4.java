@@ -20,7 +20,7 @@ public class Question4
     Scanner in = new Scanner(System.in);
 
     //prompt for base integer
-    System.out.print("Enter Base Interger: ");
+    System.out.print("");
 
     int base = in.nextInt();
 

@@ -29,7 +29,7 @@ public class Question5
     Scanner in = new Scanner(System.in);
 
     //prompt
-    System.out.print("Enter No. of Numbers: ");
+    System.out.print("");
     int num = in.nextInt();
 
     //store in array 
@@ -53,7 +53,7 @@ public class Question5
       }
     }
 
-    System.out.print("Occurence: " + sameNum);
+    System.out.print("" + sameNum);
 
   }
 }
