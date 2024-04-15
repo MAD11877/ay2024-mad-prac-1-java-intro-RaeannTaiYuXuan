@@ -8,7 +8,7 @@ public class Question4
     Scanner in = new Scanner(System.in);
 
     //prompt for base integer
-    System.out.print("");
+    //System.out.print("");
 
     int base = in.nextInt();
 

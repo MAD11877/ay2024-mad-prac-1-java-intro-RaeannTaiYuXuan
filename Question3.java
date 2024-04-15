@@ -8,7 +8,7 @@ public class Question3
      Scanner in = new Scanner(System.in);
 
         // Prompt the user to enter an integer
-        System.out.print("");
+        //System.out.print("");
         
         // Read the integer input
         int num = in.nextInt();

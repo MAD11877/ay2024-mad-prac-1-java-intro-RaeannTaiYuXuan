@@ -6,11 +6,11 @@ public class Question2 {
         Scanner in = new Scanner(System.in);
 
         // Prompt the user for height
-        System.out.print("");
+        
         double height = in.nextDouble();
 
         // Prompt the user for weight
-        System.out.print("");
+        
         double weight = in.nextDouble();
 
         // Calculate BMI

@@ -8,7 +8,7 @@ public class Question5
     Scanner in = new Scanner(System.in);
 
     //prompt
-    System.out.print("");
+    //System.out.print("");
     int num = in.nextInt();
 
     //store in array 
