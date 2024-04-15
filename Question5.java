@@ -16,7 +16,7 @@ public class Question5
 
     //loop to track and add the frecuncy
     for (int i = 0; i < num; i++){
-      System.out.print("> ");//for the carrot infront of number
+      //System.out.print("> ");//for the carrot infront of number
       int input = in.nextInt();
       numbers[input]++; //add the number that appear once or more into array 
     }
@@ -32,7 +32,7 @@ public class Question5
       }
     }
 
-    System.out.print(sameNum);
+    //System.out.print(sameNum);
 
   }
 }
