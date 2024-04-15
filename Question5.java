@@ -25,8 +25,35 @@ public class Question5
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
-     
+
     Scanner in = new Scanner(System.in);
-    
+
+    //prompt
+    System.out.print("Enter No. of Numbers: ");
+    int num = in.nextInt();
+
+    //store in array 
+    int[] numbers = new int[100];
+
+    //loop to track and add the frecuncy
+    for (int i = 0; i < num; i++){
+      System.out.print("> ");//for the carrot infront of number
+      int input = in.nextInt();
+      numbers[input]++; //add the number that appear once or more into array 
+    }
+
+    //need to check the array length and the num
+    int sameNum = 0;
+    int max = 0;
+    for (int f = 0; f < numbers.length; f++){
+      //if loop for knowing if the num in array appear how many times 
+      if (numbers[f] > max){
+        sameNum = f;
+        max = numbers[f];
+      }
+    }
+
+    System.out.print("Occurence: " + sameNum);
+
   }
 }

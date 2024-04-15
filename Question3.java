@@ -10,7 +10,30 @@ public class Question3
      * Hint: in.nextInt() to read integer
      */
      
-    Scanner in = new Scanner(System.in);
+     Scanner in = new Scanner(System.in);
+
+        // Prompt the user to enter an integer
+        System.out.print("Enter Integer: ");
+        
+        // Read the integer input
+        int num = in.nextInt();
+
+        // Close the Scanner object to avoid resource leak
+        in.close();
+
+        // Multiply the integer by itself
+        int result = num * num;
+
+        // Print out the result
+        System.out.println("Result: " + result);
+
+
+
+
     
   }
+
+  
 }
+
+
