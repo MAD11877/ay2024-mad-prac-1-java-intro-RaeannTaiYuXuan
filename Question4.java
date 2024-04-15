@@ -16,10 +16,10 @@ public class Question4
     for (int i = base; i > 0; i--){
       //inner loop for printing out "*"
       for(int a = 0; a < i; a++){
-        //System.out.print("*");
+        System.out.print("*");
       }
       //is to make spacing for each line
-      //System.out.println();
+      System.out.println();
     }
 
      

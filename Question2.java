@@ -17,7 +17,7 @@ public class Question2 {
         double bmi = calculateBMI(height, weight);
 
         // Print the BMI
-        //System.out.println(bmi);
+        System.out.println(bmi);
     }
 
     // Method to calculate BMI

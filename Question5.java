@@ -32,7 +32,7 @@ public class Question5
       }
     }
 
-    //System.out.print(sameNum);
+    System.out.print(sameNum);
 
   }
 }

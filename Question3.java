@@ -20,7 +20,7 @@ public class Question3
         int result = num * num;
 
         // Print out the result
-        //System.out.println(result);
+        System.out.println(result);
 
 
 
